@@ -23,8 +23,9 @@ A device aiding in the connection to the USB pins on the back of the AI Pin, for
 2. Solder a wire to each of your 4 pins. I recommend trying to only have the solder and the wire on one side and not to have it spread around the pin. Do not obstruct the bottom of the pin; it is used for accurate positioning.
 3. Place each pin into one of the 4 slots on the pin holder. There should be some resistance to the installation, and you may have to push it in with a fingernail or a hard tool like a spudger or screwdriver (be careful, the pins are easy to break). The end of the pin must rest on the bottom ledge of the pin holder; this accurately positions the pin for interface with the AI Pin.
    
-    > [!NOTE]  
-    > You can theoretically solder to the pins at this stage (assuming you didn't in step 2), which would allow you to slide the pins the entire length of the holder, which seems to work nicer.
+> [!NOTE]  
+> You can theoretically solder to the pins at this stage (assuming you didn't in step 2), which would allow you to slide the pins the entire length of the holder, which seems to work nicer.
+
 4. Secure the position of the pin through some form of adhesive. Hot glue should be adequate. Be aware of the clearances of the holder in the main dock part.
 5. Solder your wires to your USB connection method. When the "hu.ma.ne" text is positioned at the bottom of the AI Pin, the pinout from top to bottom is:
      * VCC - Red
