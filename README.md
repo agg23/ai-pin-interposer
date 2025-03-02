@@ -32,7 +32,8 @@ A device aiding in the connection to the USB pins on the back of the AI Pin, for
      * D+ - Green
      * GND - Black
   
-    ![](https://github.com/agg23/ai-pin-interposer/blob/master/images/AI Pin Pinout.jpg?raw=true)
+    <img src="https://github.com/agg23/ai-pin-interposer/blob/master/images/AI%20Pin%20Pinout.jpg?raw=true" width="512">
+
 6. Slide the pin holder into the dock, being carful not to damage or put preasure on the test probes. The probes should extend out of the hole in the top of the dock by ~1mm. Be careful not to damage your wires or soldering.
 7. Screw the two M3 bolts into the holder and dock. The holder should sit very slightly beneath flush with the bottom of the dock.
 8. Align your USB breakout board (if you have one). There are notches for holding a standard thickness PCB. You probably want to apply the same adhesive here.
