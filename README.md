@@ -1,0 +1,46 @@
+# Humane AI Pin Interposer
+
+A device aiding in the connection to the USB pins on the back of the AI Pin, for purposes of ADB access.
+
+> [!NOTE]  
+> At the time of writing, access to the USB pins doesn't actually allow us to do anything. Only go to this effort if you're interested in playing around.
+
+## Instructions
+
+### Requirements
+
+- [ ] 4x P50-B1 test probes - These are 0.68mm diameter, 16.55mm fully extended spring probes. You can easily find them en masse on places like Amazon, and you probably want more than just 4 as they are very easy to break. - I purchased https://www.amazon.com/dp/B07RKMN3TG
+- [ ] Some form of USB connectivity - You could just splice a USB A cable, or you can buy USB breakout boards like https://www.amazon.com/dp/B0D12KX74M
+- [ ] Small gage wire - You're soldering to something 0.7mm thick and you can't waste too much space
+- [ ] 2x M3 12mm bolt - Smaller lengths will likely work.
+- [ ] Access to a 3D printer
+- [ ] Soldering iron and solder
+- [ ] Likely something like hot glue or tape
+
+### Assembly
+
+1. Print each of the parts. Unless you have really good bridging you will need supports on the cradle. Given the small dimensions in the pin holder, you may want to tweak your settings to run slower, enable retraction on small gaps, etc. I have allowed for some dimentional inaccuracy and wall expansion, but this may cause problems for you. I printed at 0.2mm for everything.
+2. Solder a wire to each of your 4 pins. I recommend trying to only have the solder and the wire on one side and not to have it spread around the pin. Do not obstruct the bottom of the pin; it is used for accurate positioning.
+3. Place each pin into one of the 4 slots on the pin holder. There should be some resistance to the installation, and you may have to push it in with a fingernail or a hard tool like a spudger or screwdriver (be careful, the pins are easy to break). The end of the pin must rest on the bottom ledge of the pin holder; this accurately positions the pin for interface with the AI Pin.
+   
+    > [!NOTE]  
+    > You can theoretically solder to the pins at this stage (assuming you didn't in step 2), which would allow you to slide the pins the entire length of the holder, which seems to work nicer.
+4. Secure the position of the pin through some form of adhesive. Hot glue should be adequate. Be aware of the clearances of the holder in the main dock part.
+5. Solder your wires to your USB connection method. When the "hu.ma.ne" text is positioned at the bottom of the AI Pin, the pinout from top to bottom is:
+     * VCC - Red
+     * D- - White
+     * D+ - Green
+     * GND - Black
+  
+    ![](https://github.com/agg23/ai-pin-interposer/blob/master/images/AI Pin Pinout.jpg?raw=true)
+6. Slide the pin holder into the dock, being carful not to damage or put preasure on the test probes. The probes should extend out of the hole in the top of the dock by ~1mm. Be careful not to damage your wires or soldering.
+7. Screw the two M3 bolts into the holder and dock. The holder should sit very slightly beneath flush with the bottom of the dock.
+8. Align your USB breakout board (if you have one). There are notches for holding a standard thickness PCB. You probably want to apply the same adhesive here.
+
+Enjoy your Humane AI Pin interposer. You can now connect USB to your computer and place your AI Pin into the dock. If you have done everything correctly, then running `adb devices` should produce the following output:
+
+```bash
+> adb devices
+List of devices attached
+[random-device-id]        unauthorized
+```
