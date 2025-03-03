@@ -28,7 +28,7 @@ Dock Body             |  Probe Holder
 
 ### Assembly
 
-1. Print each of the parts (`Dock Body.stl`, `Probe Holder.stl`). Unless you have really good bridging you will need supports on the cradle. Given the small dimensions in the pin holder, you may want to tweak your settings to run slower, enable retraction on small gaps, etc. I have allowed for some dimentional inaccuracy and wall expansion, but this may cause problems for you. I printed at 0.2mm for everything.
+1. [Download the latest version of the parts](https://github.com/agg23/ai-pin-interposer/releases/latest) (`Dock Body.stl`, `Probe Holder.stl`). Print the parts. Unless you have really good bridging you will need supports on the cradle. Given the small dimensions in the pin holder, you may want to tweak your settings to run slower, enable retraction on small gaps, etc. I have allowed for some dimentional inaccuracy and wall expansion, but this may cause problems for you. I printed at 0.2mm for everything.
 2. Solder a wire to each of your 4 pins. I recommend trying to only have the solder and the wire on one side and not to have it spread around the pin. Do not obstruct the bottom of the pin; it is used for accurate positioning.
    
    ![](images/Soldered%20Pins.jpg)
