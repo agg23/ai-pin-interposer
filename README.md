@@ -28,7 +28,10 @@ Dock Body             |  Probe Holder
 
 ### Assembly
 
-1. [Download the latest version of the parts](https://github.com/agg23/ai-pin-interposer/releases/latest) (`Dock Body.stl`, `Probe Holder.stl`). Print the parts. Unless you have really good bridging you will need supports on the cradle. Given the small dimensions in the pin holder, you may want to tweak your settings to run slower, enable retraction on small gaps, etc. I have allowed for some dimentional inaccuracy and wall expansion, but this may cause problems for you. I printed at 0.2mm for everything.
+1. [Download the latest version of the parts](https://github.com/agg23/ai-pin-interposer/releases/latest) (`Dock Body.stl`, `Probe Holder.stl`). Print the parts. The Dock Body seems to print best when positioned vertically with the USB hole on the bed. The Probe Holder should lay flat. Unless you have really good bridging you will need supports on the cradle. Given the small dimensions in the pin holder, you may want to tweak your settings to run slower, enable retraction on small gaps, etc. I have allowed for some dimentional inaccuracy and wall expansion, but this may cause problems for you. I printed at 0.2mm for everything.
+
+   ![](images/Dock%20Body%20Orientation.png)
+
 2. Solder a wire to each of your 4 pins. I recommend trying to only have the solder and the wire on one side and not to have it spread around the pin. Do not obstruct the bottom of the pin; it is used for accurate positioning.
    
    ![](images/Soldered%20Pins.jpg)
@@ -59,7 +62,7 @@ Dock Body             |  Probe Holder
 7. Screw the two M3 bolts into the holder and dock. The holder should sit very slightly beneath flush with the bottom of the dock.
 8. Test continuity of your wires and pins with the multimeter. Verify there are no shorts and that there is a direct path from your USB pin to the probe in the interposer.
 9. Align your USB breakout board (if you have one). There are notches for holding a standard thickness PCB. You probably want to apply the same adhesive here.
-10. If you're installing magnetic material (paperclips, some other metal), you can do so now. This will help hold your Pin on the probes to prevent it from unseating.
+10. If you're installing magnetic material (paperclips, some other metal), you can do so now by sliding them into the slots at the front and back of the dock. The holes are precisely sized for a small paperclip. This will help hold your Pin on the probes to prevent it from unseating.
 
 ![](images/Docked%20Pin.jpg)
 
