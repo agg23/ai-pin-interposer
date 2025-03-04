@@ -28,7 +28,7 @@ Dock Body             |  Probe Holder
 
 ### Assembly
 
-1. [Download the latest version of the parts](https://github.com/agg23/ai-pin-interposer/releases/latest) (`Dock Body.stl`, `Probe Holder.stl`). Print the parts. The Dock Body seems to print best when positioned vertically with the USB hole on the bed. The Probe Holder should lay flat. Unless you have really good bridging you will need supports on the cradle. Given the small dimensions in the pin holder, you may want to tweak your settings to run slower, enable retraction on small gaps, etc. I have allowed for some dimentional inaccuracy and wall expansion, but this may cause problems for you. I printed at 0.2mm for everything.
+1. [Download the latest version of the parts](https://github.com/agg23/ai-pin-interposer/releases/latest) (`Dock Body.stl`, `Probe Holder.stl`). Print the parts. The Dock Body seems to print best when positioned vertically with the USB hole on the bed. The Probe Holder should lay flat. Supports are not required on either print. Given the small dimensions in the pin holder, you may want to tweak your settings to run slower, enable retraction on small gaps, etc. I have allowed for some dimentional inaccuracy and wall expansion, but this may cause problems for you. I printed at 0.2mm for everything.
 
    ![](images/Dock%20Body%20Orientation.png)
 
