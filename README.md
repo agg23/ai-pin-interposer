@@ -16,7 +16,7 @@ Dock Body             |  Probe Holder
 ### Requirements
 
 - [ ] 4x P50-B1 test probes - These are 0.68mm diameter, 16.55mm fully extended spring probes. You can easily find them en masse on places like Amazon, and you probably want more than just 4 as they are very easy to break. - I purchased https://www.amazon.com/dp/B07RKMN3TG
-- [ ] Some form of USB connectivity - You could just splice a USB A cable, or you can buy USB breakout boards like https://www.amazon.com/dp/B0D12KX74M
+- [ ] Some form of USB connectivity - You could just splice a USB A cable, or you can buy USB breakout boards like ~~https://www.amazon.com/dp/B0D12KX74M~~ (NOTE: USB-C requires pull up resistors to be properly recognized. These simple breakout boards are designed for you to use a USB-C to USB-A cable on; they don't work USB-C to USB-C).
 - [ ] Small gauge wire - I use [22AWG solid core](https://www.adafruit.com/product/1311) - You're soldering to something 0.7mm thick and you can't waste too much space
 - [ ] 2x M3 12mm bolt - Smaller lengths will likely work.
 - [ ] Screwdriver for M3 bolts
